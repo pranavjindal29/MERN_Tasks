@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 4</title>
+    <style>
+        #sidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #sidenav a:hover {
+            left: 0;
+        }
+
+        #songs {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+
+        #videos {
+            top: 80px;
+            background-color: #2196F3;
+        }
+
+        #about {
+            top: 140px;
+            background-color: #f44336;
+        }
+
+        #contact {
+            top: 200px;
+            background-color: #555
+        }
+
+        #text {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sidenav" class="sidenav">
+        <a href="#" id="songs">Songs</a>
+        <a href="#" id="videos">Videos</a>
+        <a href="#" id="about">About</a>
+        <a href="#" id="contact">Contact</a>
+    </div>
+    <div id="text">
+        <h2>Hoverable SideNav Buttons</h2>
+    </div>
+</body>
+
+</html>
